@@ -1,0 +1,35 @@
+<html>
+    <head>
+    
+    </head>
+    <body>
+        <div style="background-color:burlywood;padding: 20px;" >
+            <div style="background-color:blue;padding:20px"><h2 style="text-align: center">Liver Patient Prediction</h2></div>
+            <form action="/predict" method="post">
+                <table cellspacing="25px" style="margin-left: 400px; margin-right: 80px;">
+                    <tr>
+                        <td><b>Age:</b><br><input type="text" name="age"></td>
+                        <td><b>Gender:</b><br><input type="text" name="gender"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Total_Bilirubin:</b><br><input type="text" name="tb"></td>
+                        <td><b>Direct_Bilirubin:</b><br><input type="text" name="db"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Alkaline_Phosphotase:</b><br><input type="text" name="ap"></td>
+                        <td><b>Alamne_Aminotransferase:</b><br><input type="text" name="aa1"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Aspartate_Aminotransferase:</b><br><input type="text" name="aa2"></td>
+                        <td><b>Total_Protiens:</b><br><input type="text" name="tp"></td>
+                    </tr>
+                    <tr>
+                        <td><b>Albumin:</b><br><input type="text" name="a"></td>
+                        <td><b>Albumin_and_Globulin_Ratio:</b><br><input type="text" name="agr"></td>
+                    </tr>
+                </table>
+                <input type="submit" value="predict">
+            </form>
+        </div>
+    </body>
+</html>

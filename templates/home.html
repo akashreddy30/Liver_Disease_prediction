@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <style>
+          .heading{
+            float: left;
+            padding:14px 16px;
+            border:0px;
+          }
+            .top{
+                background-color:darkcyan;
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              
+            }
+            
+            li {
+              float: right;
+              border-right:1px solid #bbb;
+            }
+            
+            li:last-child {
+              border-right: none;
+            }
+            
+            li a {
+              display:flex;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              color: aliceblue;
+            }
+            
+            li a:hover:not(.active) {
+              background-color: #111;
+            }
+            
+            .active {
+              background-color: #04AA6D;
+            }
+            </style>
+    </head>
+    <body>
+        <div class="top">
+          <ul >
+            <li class="heading" style="color:white;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Liver Patient Ananlysis</li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/render">Go Predict</a></li>
+            </ul>
+        </div>
+        <div class="bottom">
+            <h2>Introduction</h2>
+            <p>
+                Liver diseases averts the normal function of the liver. 
+                Mainly due to the large amount of alcohol consumption liver disease arises. 
+                Early prediction of liver disease using classification algorithms is an
+                 efficacious task that can help the doctors to diagnose the disease within 
+                 a short duration of time. Discovering the existence of liver disease at an 
+                 early stage is a complex task for the doctors. The main objective of this paper
+                  is to analyse the parameters of various classification algorithms and compare their
+                   predictive accuracies so as to find out the best classifier for determining the liver disease.
+                    This paper focuses on the related works of various authors on liver disease such that algorithms were
+                     implemented using Weka tool that is a machine learning software written in Java. Various attributes that
+                      are essential in the prediction of liver disease were examined and the dataset of liver patients were also
+                       evaluated. This paper compares various classification algorithms such as Random Forest, Logistic Regression and Separation Algorithm with an aim to identify the best technique Based on this study, Random Forest with the highest accuracy outperformed the other algorithms and can be further utilised in the prediction of liver diseaserecommended
+            </p>
+        </div>
+    </body>
+</html>
